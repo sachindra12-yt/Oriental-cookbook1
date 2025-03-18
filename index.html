@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oriental Cookbook</title>
+  <style>
+    /* Base Styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: blue;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: white;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: green;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: orange;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      width: 90%;
+      max-width: 1000px;
+      margin: 20px auto;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    section h2 {
+      border-bottom: 2px solid #b58900;
+      padding-bottom: 5px;
+      color: red;
+    }
+    /* Recipe Card */
+    .recipe-card {
+      background-color: #eee8d5;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 15px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+    }
+    .recipe-card img {
+      width: 200px;
+      height: auto;
+      border-radius: 5px;
+      margin-right: 20px;
+    }
+    .recipe-info h3 {
+      margin-top: 0;
+      color: black;
+    }
+    .labels {
+      font-weight: bold;
+      color: yellow;
+    }
+    footer {
+      background-color: golden;
+      color: purple;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Oriental Cookbook</h1>
+  </header>
+  <nav>
+    <a href="#appetizers">Appetizers</a>
+    <a href="#main-courses">Main Courses</a>
+    <a href="#desserts">Desserts</a>
+    <a href="#beverages">Beverages</a>
+  </nav>
+  <div class="container">
+    <!-- Appetizers Section -->
+    <section id="appetizers">
+      <h2>Appetizers</h2>
+      <div class="recipe-card">
+        <a href="https://example.com/spring-rolls" target="_blank">
+         <a href="https://ibb.co/99Fh5XZR"><img src="https://i.ibb.co/DDxY2Xr3/IMG-4321.jpg" alt="IMG-4321" border="0"></a>
+        <div class="recipe-info">
+          <h3>Spring Rolls</h3>
+          <p><span class="labels">Cuisine:</span> Oriental</p>
+          <p><span class="labels">Prep Time:</span> 20 mins</p>
+          <p>Crispy rolls filled with fresh vegetables and herbs.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Main Courses Section -->
+    <section id="main-courses">
+      <h2>Main Courses</h2>
+      <div class="recipe-card">
+        <a href="https://example.com/szechuan-noodles" target="_blank">
+         <a href="https://ibb.co/hbB9961"><img src="https://i.ibb.co/YmcQQCT/IMG-4320.jpg" alt="IMG-4320" border="0"></a>
+        <div class="recipe-info">
+          <h3>Szechuan Noodles</h3>
+          <p><span class="labels">Cuisine:</span> Oriental</p>
+          <p><span class="labels">Cook Time:</span> 30 mins</p>
+          <p>Spicy noodles with a tangy Szechuan pepper kick.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Desserts Section -->
+    <section id="desserts">
+      <h2>Desserts</h2>
+      <div class="recipe-card">
+        <a href="https://example.com/matcha-cake" target="_blank">
+         <a href="https://ibb.co/Xx8hpcB5"><img src="https://i.ibb.co/N2S8pchN/IMG-4319.jpg" alt="IMG-4319" border="0"></a>
+        <div class="recipe-info">
+          <h3>Matcha Cake</h3>
+          <p><span class="labels">Cuisine:</span> Oriental</p>
+          <p><span class="labels">Bake Time:</span> 40 mins</p>
+          <p>A moist cake infused with the delicate flavor of green tea.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Beverages Section -->
+    <section id="beverages">
+      <h2>Beverages</h2>
+      <div class="recipe-card">
+        <a href="https://example.com/oolong-tea" target="_blank">
+         <a href="https://ibb.co/YF4G5tHC"><img src="https://i.ibb.co/MxyLzRFv/IMG-4318.jpg" alt="IMG-4318" border="0"></a>
+        <div class="recipe-info">
+          <h3>Oolong Tea</h3>
+          <p><span class="labels">Cuisine:</span> Oriental</p>
+          <p><span class="labels">Brew Time:</span> 5 mins</p>
+          <p>A refreshing brew with subtle floral and fruity notes.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2025 Oriental Cookbook. All rights reserved.</p>
+  </footer>
+</body>
+</html>
